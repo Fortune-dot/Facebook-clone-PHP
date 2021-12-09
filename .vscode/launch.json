@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      
+        {
+            //"debugServer": 4711, // Uncomment for debugging the adapter
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9001,
+            "log": true
+          },
+          {
+            //"debugServer": 4711, // Uncomment for debugging the adapter
+            "name": "Launch",
+            "request": "launch",
+            "type": "php",
+            "program": "${file}",
+            "cwd": "${C:\\xampp\\php\\ext\\php_xdebug-3.0.2-7.4-vc15-x86_64.dll}",
+            "externalConsole": false
+          }
+    ]
+}

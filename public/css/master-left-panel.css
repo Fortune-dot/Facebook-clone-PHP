@@ -1,0 +1,130 @@
+#master-left {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    padding: 6px 6px 0 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 320px;
+
+    background-color: rgb(40, 40, 40);
+}
+
+#master-left-container {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding-right: 4px;
+}
+
+.left-menu-selected-page {
+    background-color: rgba(45, 221, 45, 0.5);
+}
+
+.contact-user-button:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+.menu-item-style-1 {
+    cursor: pointer;
+    padding: 6px 8px;
+
+    border-radius: 4px;
+}
+
+.menu-item-style-1:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.menu-item-style-2 {
+    cursor: pointer;
+    padding: 5px 5px;
+    margin-top: 2px;
+    border-radius: 4px;
+}
+
+.menu-item-style-2:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+#menu-profile-container {
+    margin: 0 3px 8px 3px;
+    background: rgb(70,70,70);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.699);
+    padding: 4px;
+
+    border-radius: 6px;
+}
+
+.cover-container {
+    max-height: 120px;
+    min-height: 120px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    border-radius: 6px 6px 0 0;
+}
+
+.cover-photo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.picture-container {
+    height: 66px;
+    width: 66px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgb(48, 48, 48) 0%, rgb(18, 18, 18) 100%);
+    overflow: hidden;
+    top: 90px;
+    left: 20px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture-photo {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.header-profile-name-container {
+    margin-left: 90px;
+}
+
+.header-profile-fullname {
+    margin: 2px 0 1px 0;
+    font-size: 16px;
+}
+
+.header-profile-username {
+    margin:0;
+    font-size: 13px;
+}
+
+.profile-owner-picture-left-panel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 44px;
+    width: 44px;
+    overflow: hidden;
+
+    border-radius: 50%;
+}
+
+.profile-owner-picture-left-panel-container {
+    height: 40px;
+    width: 40px;
+}
+
+.profile-owner-picture-left-panel {
+    height: 40px;
+    display: flex;
+}

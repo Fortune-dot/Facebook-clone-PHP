@@ -1,0 +1,241 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+}
+
+#top-header {
+    z-index: 1;
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#header-logo-container {
+    display: flex;
+    align-items: center;
+
+    margin-left: 14px;
+}
+
+#header-logo {
+    width: 180px;
+    height: 28px;
+}
+
+#header-search-form {
+    display: flex;
+    align-items: center;
+
+    width: 380px;
+}
+
+#global-header-strip-container {
+    display: flex;
+    align-items: center;
+    
+    margin-right: 16px;
+    margin-left: auto;
+}
+
+.horizontal-menu-item-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.horizontal-menu-link {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+}
+
+#user-photo-button {
+    margin: 0 4px;
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+    background-color: rgb(71, 71, 71);
+    background-position: center center;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/icons/more.png);
+}
+
+.options-separator-style-1 {
+    height: 1px;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.sub-option {
+    display: block;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    margin: 3px 0;
+}
+
+.sub-option:last-child {
+    margin-bottom: 0px;
+}
+
+.sub-option:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.friend-request-option-item, .message-option-item {
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 0;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.friend-request-option-item:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.friend-request-content-container {
+    padding: 0 0 0 6px;
+}
+
+.message-content-container {
+    padding: 0 0 0 6px;
+}
+
+.notif-content {
+    margin: 0;
+    padding: 0;
+}
+
+.notif-date {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 12px;
+    color: rgb(0, 107, 207);
+}
+
+.action-doer {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.account-user {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.message-sender {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#user-profile-button {
+    padding: 3px 6px 3px 4px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0 4px;
+
+    background-color: rgb(37, 37, 37);
+    transition: all 0.4s ease;
+}
+
+#user-profile-button:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.options-container {
+    max-height: 450px;
+}
+
+.message-content {
+    margin: 0;
+    padding: 0;
+}
+
+.message-state-sign {
+    margin-top: 12px;
+    margin-left: 2px;
+    display: block;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    align-self: center;
+}
+
+.logout-button {
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#header-picture-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+#header-picture {
+    display: flex;
+    height: 33px;
+}
+
+.header-menu-profile-picture-container {
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.header-menu-profile-picture {
+    height: 100%;
+    display: flex;
+}
+
+.num-of-requests {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(226, 59, 59);
+    top: -4px;
+    right: -4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

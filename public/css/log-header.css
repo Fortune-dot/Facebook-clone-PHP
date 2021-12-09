@@ -1,0 +1,26 @@
+header {
+    background-color: black;
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.wide-logo {
+    display: flex;
+    width: 220px;
+    margin-left: 20px;
+    height: 35px;
+}
+
+#menu-login-credentials-container {
+    display: flex;
+    margin-left: auto;
+}
+
+#keep-me-connected {
+    margin: 0 3px 0 0;
+}
+
+#connect {
+    cursor: pointer;
+}
